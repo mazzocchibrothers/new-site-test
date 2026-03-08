@@ -156,7 +156,7 @@ export function NeuralNetwork() {
         })}
 
         {/* Signal ball traveling along active connection */}
-        {activeSignal !== null && (() => {
+        {activeSignal !== null && activeSignal < CONNECTIONS.length && (() => {
           const conn = CONNECTIONS[activeSignal];
           const from = NODES[conn.from];
           const to = NODES[conn.to];

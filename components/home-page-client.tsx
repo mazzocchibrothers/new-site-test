@@ -18,6 +18,7 @@ import { MagneticButton } from "@/components/magnetic-button";
 import { DotMarquee } from "@/components/infinite-marquee";
 import { GlowCard } from "@/components/glow-card";
 import { NeuralNetwork } from "@/components/neural-network";
+import { ParallelogramPattern } from "@/components/parallelogram-pattern";
 import { CyclingText } from "@/components/cycling-text";
 import { BentoStats } from "@/components/bento-stats";
 import { TalentCounter } from "@/components/talent-counter";
@@ -97,6 +98,7 @@ export function HomePageClient() {
     <>
       {/* ─── HERO ───────────────────────────────────────────── */}
       <section ref={heroRef} className="hero-bg relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <ParallelogramPattern />
 
         <motion.div
           style={{ y: heroY, opacity: heroOpacity }}
