@@ -167,7 +167,7 @@ export default function ProductOverviewPage() {
                   asChild
                   size="lg"
                   variant="outline"
-                  className="border-white/20 text-white hover:bg-white/10 hover:text-white rounded-xl px-8 py-6"
+                  className="bg-transparent border-white/30 text-white hover:bg-white/10 hover:text-white rounded-xl px-8 py-5"
                 >
                   <Link href="/science">See the Science</Link>
                 </Button>
