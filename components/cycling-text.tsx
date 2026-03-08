@@ -36,14 +36,14 @@ export function CyclingText({ words, interval = 2600, className }: CyclingTextPr
       <AnimatePresence mode="wait">
         <motion.span
           key={index}
-          initial={{ y: 32, opacity: 0, filter: "blur(10px)", scale: 0.92 }}
-          animate={{ y: 0,  opacity: 1, filter: "blur(0px)",  scale: 1    }}
-          exit={{   y: -32, opacity: 0, filter: "blur(10px)", scale: 0.92 }}
-          transition={{ duration: 0.42, ease: [0.21, 0.47, 0.32, 0.98] }}
+          className={className}
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0,  opacity: 1 }}
+          exit={{   y: -20, opacity: 0 }}
+          transition={{ duration: 0.35, ease: [0.21, 0.47, 0.32, 0.98] }}
           style={{
             position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
+            left: 0,
             whiteSpace: "nowrap",
           }}
         >

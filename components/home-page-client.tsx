@@ -26,7 +26,7 @@ const stats = [
   { value: 30, suffix: "%", label: "Reduction in bad hire rate" },
   { value: 10000, suffix: "+", label: "Candidates assessed / year" },
   { value: 100, suffix: "+", label: "Native integrations" },
-  { value: 50, suffix: "+", label: "Languages supported" },
+  { value: 18, suffix: "+", label: "Languages supported" },
 ];
 
 const solutions = [
@@ -191,7 +191,7 @@ export function HomePageClient() {
 
               <AnimatedSection delay={0.55}>
                 <div className="flex flex-wrap gap-x-6 gap-y-2">
-                  {["ISO 27001 certified", "100+ integrations", "50+ languages"].map((p, i) => (
+                  {["ISO 27001 certified", "100+ integrations", "18+ languages"].map((p, i) => (
                     <motion.div
                       key={p}
                       initial={{ opacity: 0, x: -12 }}
@@ -205,6 +205,7 @@ export function HomePageClient() {
                   ))}
                 </div>
               </AnimatedSection>
+
             </div>
 
             {/* RIGHT — Neural Network visualization */}
@@ -501,7 +502,7 @@ export function HomePageClient() {
                       { label: "Assessment Duration", value: "5-30 min" },
                       { label: "Format", value: "Audio, Video, Written" },
                       { label: "Access", value: "Web App & WhatsApp" },
-                      { label: "Languages", value: "50+ languages" },
+                      { label: "Languages", value: "18+ languages" },
                     ].map((item, i) => (
                       <motion.div
                         key={item.label}
@@ -543,7 +544,7 @@ export function HomePageClient() {
                 </div>
 
                 <div className="absolute top-1/2 -right-6 -translate-y-1/2 bg-white rounded-2xl p-3 shadow-xl border border-slate-100 float-animation-slow">
-                  <div className="text-xl font-black gradient-text">50+</div>
+                  <div className="text-xl font-black gradient-text">18+</div>
                   <div className="text-xs text-slate-500 font-medium">Languages</div>
                 </div>
               </div>

@@ -140,7 +140,7 @@ export function BentoStats() {
         <p className="text-white/60 text-xs">native integrations</p>
       </motion.div>
 
-      {/* ── Card 4: 50+ languages ── */}
+      {/* ── Card 4: 18+ languages ── */}
       <motion.div
         initial={{ opacity: 0, y: 40, scale: 0.9 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -151,7 +151,7 @@ export function BentoStats() {
       >
         <Globe className="w-5 h-5 text-orange-400 mb-auto" />
         <div className="text-3xl font-black gradient-text leading-none mb-1">
-          <Counter to={50} suffix="+" duration={1.4} />
+          <Counter to={18} suffix="+" duration={1.4} />
         </div>
         <p className="text-white/60 text-xs">languages supported</p>
       </motion.div>

@@ -74,7 +74,7 @@ const lifecycle = [
   {
     step: 5,
     title: "Deploy at Scale",
-    description: "Assessments delivered via web, WhatsApp, Teams, Slack — in 50+ languages with consistent measurement quality.",
+    description: "Assessments delivered via web, WhatsApp, Teams, Slack — in 18+ languages with consistent measurement quality.",
   },
   {
     step: 6,
@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "What languages are supported?",
-    a: "Skillvue supports 50+ languages with consistent measurement quality. Our multilingual models are validated per language, not just translated — ensuring scoring accuracy is maintained across all markets.",
+    a: "Skillvue supports 18+ languages with consistent measurement quality. Our multilingual models are validated per language, not just translated — ensuring scoring accuracy is maintained across all markets.",
   },
   {
     q: "How does Skillvue comply with the EU AI Act?",
